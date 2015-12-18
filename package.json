@@ -4,7 +4,8 @@
   "description": "npm styles",
   "main": "index.js",
   "scripts": {
-    "build": "stylus styles/index.styl --out index.min.css --compress"
+    "build": "stylus styles/index.styl --out index.min.css --compress",
+    "post-install": "npm run build"
   },
   "repository": {
     "type": "git",
