@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "stylus styles/index.styl --out index.min.css --compress",
-    "post-install": "npm run build"
+    "postinstall": "npm run build && mv index.min.css ../../public"
   },
   "repository": {
     "type": "git",
