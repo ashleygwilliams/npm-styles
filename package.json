@@ -1,0 +1,24 @@
+{
+  "name": "npm-styles",
+  "version": "1.0.0",
+  "description": "npm styles",
+  "main": "index.js",
+  "scripts": {
+    "build": "stylus styles/index.styl --out index.min.css --compress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashleygwilliams/npm-styles.git"
+  },
+  "keywords": [],
+  "author": "ag_dubs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleygwilliams/npm-styles/issues"
+  },
+  "homepage": "https://github.com/ashleygwilliams/npm-styles",
+  "dependencies": {
+    "stylus": "^0.53.0"
+  },
+  "devDependencies": {}
+}
